@@ -5,10 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="home.css">
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" media="screen and (max-width: 800px)" href="phone.css">
@@ -18,13 +20,13 @@
 <body>
 
     <nav class="nav nav-h " id="navbar">
-        <h1>WebCrush</h1>
+        <h1><a href="/">WebCrush</a></h1>
         <ul class="v-class navlist">
             <li class="v-class v-class-resp">
-                <a  href="#navbar">Home</a>
-                <a  href="#ourServices">Services</a>
-                <a  href="#about_us">About Us</a>
-                <a  href="#contact-form">Contact Us</a>
+                <a href="#navbar">Home</a>
+                <a href="#ourServices">Services</a>
+                <a href="#about_us">About Us</a>
+                <a href="#contact-form">Contact Us</a>
             </li>
         </ul>
 
@@ -35,7 +37,7 @@
             <div class="line"></div>
         </div>
     </nav>
-    
+
     <div class="project" id="project">
         <div class="left2">
             <div class="ineerleft2">
@@ -128,7 +130,8 @@
                         related to websites.
 
                         Our goal is create Client own website, blogs and online stores using the right tools and
-                        platforms.</p><a href="#" class="btn btn-light px-5 rounded-pill shadow-sm">Learn More</a>
+                        platforms.</p>
+                    <!-- <a href="#" class="btn btn-light px-5 rounded-pill shadow-sm">Learn More</a> -->
                 </div>
                 <div class="col-lg-5 px-5 mx-auto order-1 order-lg-2"><img
                         src="https://bootstrapious.com/i/snippets/sn-about/img-1.jpg" alt=""
@@ -143,8 +146,9 @@
                         decide to buy a service through us, you may comtact us.
 
                         WebCrush doesn’t have any banner ads nor do we accept sponsored posts. See full advertising
-                        disclosure here.</p><a href="#" class="btn btn-light px-5 rounded-pill shadow-sm">Learn
-                        More</a>
+                        disclosure here.</p>
+                    <!-- <a href="#" class="btn btn-light px-5 rounded-pill shadow-sm">Learn
+                        More</a> -->
                 </div>
             </div>
         </div>
@@ -161,43 +165,33 @@
 
             <div class="row text-center">
                 <!-- Team item-->
-                <div class="col-xl-3 col-sm-6 mb-5">
-                    <div class="bg-white rounded shadow-sm py-5 px-4"><img src="logo1.jpeg" alt="" width="100"
-                            class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
-                        <h5 class="mb-0">Soumya Samanta</h5><span class="small text-uppercase text-muted">CEO -
+                <div class="col-xl-4 col-sm-4 mb-5">
+                    <div class="bg-white rounded shadow-sm py-5 px-4"><img src="logo1.jpg" alt="" width="100"
+                            class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm" style="height:100px ;">
+                        <h5 class="mb-0">Soumya Samanta</h5><span class="small text-uppercase text-muted">
                             Founder</span>
                     </div>
                 </div>
                 <!-- End-->
 
                 <!-- Team item-->
-                <div class="col-xl-3 col-sm-6 mb-5">
-                    <div class="bg-white rounded shadow-sm py-5 px-4"><img src="logo1.jpeg" alt="" width="100"
+                <div class="col-xl-4 col-sm-4 mb-5">
+                    <div class="bg-white rounded shadow-sm py-5 px-4"><img src="logo2.jfif" alt="" width="100"
                             class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
-                        <h5 class="mb-0">Soumya Samanta</h5><span class="small text-uppercase text-muted">CEO -
+                        <h5 class="mb-0">Koushik Dandapat</h5><span class="small text-uppercase text-muted">Co -
                             Founder</span>
                     </div>
                 </div>
                 <!-- End-->
 
                 <!-- Team item -->
-                <div class="col-xl-3 col-sm-6 mb-5">
-                    <div class="bg-white rounded shadow-sm py-5 px-4"><img src="logo1.jpeg" alt="" width="100"
+                <div class="col-xl-4 col-sm-4 mb-5">
+                    <div class="bg-white rounded shadow-sm py-5 px-4"><img src="logo3.jfif" alt="" width="100"
                             class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
-                        <h5 class="mb-0">Soumya Samanta</h5><span class="small text-uppercase text-muted">CEO -
-                            Founder</span>
+                        <h5 class="mb-0">Ayan Dutta</h5><span class="small text-uppercase text-muted">CEO </span>
                     </div>
                 </div>
                 <!-- End -->
-
-                <!-- Team item-->
-                <div class="col-xl-3 col-sm-6 mb-5">
-                    <div class="bg-white rounded shadow-sm py-5 px-4"><img src="logo1.jpeg" alt="" width="100"
-                            class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
-                        <h5 class="mb-0">Soumya Samanta</h5><span class="small text-uppercase text-muted">CEO -
-                            Founder</span>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
@@ -207,22 +201,21 @@
         <div class="contact-image">
             <img src="https://image.ibb.co/kUagtU/rocket_contact.png" alt="rocket_contact" />
         </div>
-        <form method="post">
+        <form action="/", method="post">
             <h3>Drop Us a Message</h3>
             <div class="row">
                 <div class="col-md-6">
                     <div class="form-group">
-                        <input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="" />
+                        <input type="text" name="txtName" class="form-control" placeholder="Your Name *" required>
                     </div>
                     <div class="form-group">
-                        <input type="text" name="txtEmail" class="form-control" placeholder="Your Email *" value="" />
+                        <input type="email" name="txtEmail" class="form-control" placeholder="Your Email *" required>
                     </div>
                     <div class="form-group">
-                        <input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number *"
-                            value="" />
+                        <input type="number" name="txtPhone" class="form-control" placeholder="Your Phone Number *" required>
                     </div>
                     <div class="form-group">
-                        <input type="submit" name="btnSubmit" class="btnContact" value="Send Message" />
+                        <button type="submit" class="btnContact btn"  >Send Message</button>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -242,39 +235,41 @@
         </div>
         <ul class="hash-list cols-3 cols-1-xs pad-30-all align-center text-sm">
             <li>
-                <img src="logo1.jpeg" class="wpx-100 img-round mgb-20" title="" alt="" data-edit="false"
+                <img src="logo4.jfif" class="wpx-100 img-round mgb-20" title="" alt="" data-edit="false"
                     data-editor="field" data-field="src[Image Path]; title[Image Title]; alt[Image Alternate Text]">
                 <p class="fs-110 font-cond-l" contenteditable="false">"your work is so lovely.and the cost in
                     rang.your
                     behavior also so good. "</p>
-                <h5 class="font-cond mgb-5 fg-text-d fs-130" contenteditable="false">Soumya Samanta</h5>
-                <small class="font-cond case-u lts-sm fs-80 fg-text-l" contenteditable="false">Business man - India</small>
+                <h5 class="font-cond mgb-5 fg-text-d fs-130" contenteditable="false">Indrajit Ruidas</h5>
+                <small class="font-cond case-u lts-sm fs-80 fg-text-l" contenteditable="false">Business man -
+                    India</small>
             </li>
             <li>
-                <img src="logo1.jpeg" class="wpx-100 img-round mgb-20" title="" alt="" data-edit="false"
+                <img src="logo6.jpg" class="wpx-100 img-round mgb-20" title="" alt="" data-edit="false"
                     data-editor="field" data-field="src[Image Path]; title[Image Title]; alt[Image Alternate Text]">
                 <p class="fs-110 font-cond-l" contenteditable="false">" your work is so lovely.and the cost in
                     rang.your
                     behavior also so good."</p>
-                <h5 class="font-cond mgb-5 fg-text-d fs-130" contenteditable="false">Soumya Samanta</h5>
-                <small class="font-cond case-u lts-sm fs-80 fg-text-l" contenteditable="false">Recording Artist -
+                <h5 class="font-cond mgb-5 fg-text-d fs-130" contenteditable="false">Kartik Pandit</h5>
+                <small class="font-cond case-u lts-sm fs-80 fg-text-l" contenteditable="false"> Small Business man -
                     India</small>
             </li>
             <li>
-                <img src="logo1.jpeg" class="wpx-100 img-round mgb-20" title="" alt="" data-edit="false"
+                <img src="logo5.jpg" class="wpx-100 img-round mgb-20" title="" alt="" data-edit="false"
                     data-editor="field" data-field="src[Image Path]; title[Image Title]; alt[Image Alternate Text]">
                 <p class="fs-110 font-cond-l" contenteditable="false">" your work is so lovely.and the cost in
                     rang.your
                     behavior also so good. "</p>
-                <h5 class="font-cond mgb-5 fg-text-d fs-130" contenteditable="false">Soumya Samanta</h5>
-                <small class="font-cond case-u lts-sm fs-80 fg-text-l" contenteditable="false">Fund Manager -
-                    India</small>
+                <h5 class="font-cond mgb-5 fg-text-d fs-130" contenteditable="false">Bill Gates</h5>
+                <small class="font-cond case-u lts-sm fs-80 fg-text-l" contenteditable="false">Founder -
+                    Microsoft</small>
             </li>
         </ul>
     </div>
     <div class="footer" id="footer">
         <h4>Copyright@2021-2022 WebCrush.com</h4>
     </div>
+    </script>
     <script>
         const burger = document.querySelector(".burger");
         const nav = document.querySelector(".nav");
